@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="x-icon" href="../img/icon/book.png" />
-   <link rel="stylesheet" href="./../css/feedback.css">
-   <link rel="stylesheet" href="../css/style_sellbook.css" />
+    <link rel="stylesheet" href="./../css/feedback.css">
+    <link rel="stylesheet" href="./sell.css">
+    <title>Feedback</title>
 </head>
 <body>
-
-    <div class="conatiner-holder">
+    <div class="container-holder">
         <div class="nav-bar">
             <div class="logo">BookSwap <span style="color: white;">Corner</span></div>
-            <ul class="list">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="list" id="nav-list">
                 <li><a href="../index.html">Home<span></span></a></li>
                 <li><a href="./login.html">Login<span></span></a></li>
                 <li><a href="./contactus.html">Contact<span></span></a></li>
@@ -34,40 +35,35 @@
 
                 <label for="email" class="label">Email :</label>
                 <input type="email" id="email" name="email" required class="finput" placeholder="abc@xyz">
-          
-                <label for="feedback">Feedback :</label><br>
-                <input type="text" name="feedback" rows="4" required class="feedback" placeholder="   Do you have any suggestions to improve our website?"></textarea><br>
 
+                <label for="feedback">Feedback :</label><br>
+                <textarea name="feedback" rows="4" required class="feedback" placeholder="Do you have any suggestions to improve our website?"></textarea><br>
 
                 <label class="label">Overall Experience</label>
                 <div class="emoji">
-    
-                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
-                    <input type="radio" name="oe" value="Excellent" class="radio">
-    
-                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
-                    <input type="radio" name="oe" value="Excellent" class="radio">
-    
-                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
-                    <input type="radio" name="oe" value="Excellent" class="radio">
-    
-                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
-                    <input type="radio" name="oe" value="Excellent" class="radio">
-    
-                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
-                    <input type="radio" name="oe" value="Excellent" class="radio">
+                    <label for="excellent"><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
+                    <input type="radio" id="excellent" name="oe" value="Excellent" class="radio">
+                    
+                    <label for="good"><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
+                    <input type="radio" id="good" name="oe" value="Good" class="radio">
+
+                    <label for="average"><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
+                    <input type="radio" id="average" name="oe" value="Average" class="radio">
+
+                    <label for="poor"><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
+                    <input type="radio" id="poor" name="oe" value="Poor" class="radio">
+
+                    <label for="terrible"><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
+                    <input type="radio" id="terrible" name="oe" value="Terrible" class="radio">
                 </div>
 
-                
-                <button type="submit" divclass="btn">Submit</button>
-
+                <button type="submit" class="btn">Submit</button>
             </form>
         </div>
     </div>
 
     <div class="footer-navbar">
         <div class="parent-holder">
-
             <div class="footer-info">
                 <p><b>Sell Book Online</b></p>
                 <div class="txt-info">Buy And Sell Used Books Online In India. Buy second hand books and old books near
@@ -102,6 +98,16 @@
             <p>Copyright 2021-24 &#169; <span class="red"> BookSwap Corner </span>All Rights Reserved</p>
         </div>
     </div>
-</body>
 
+    <script>
+        function toggleMenu() {
+            var x = document.getElementById("nav-list");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
 </html>
