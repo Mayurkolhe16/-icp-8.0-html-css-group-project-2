@@ -431,7 +431,7 @@ p {
 }
 
 .list-footer li a:hover{
-    color: red;
+    color: aqua;
 }
 
 .list-footer li a span{
@@ -441,7 +441,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid aqua;
     transform:  scale(0) translateY(50px);
     transition: .5s;
 }
