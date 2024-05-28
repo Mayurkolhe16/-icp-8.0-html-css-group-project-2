@@ -365,6 +365,10 @@ p {
       width: 100%;
   }
 
+  .registration .registration-form, .login .login-form {
+    margin: 20px;
+  }
+
   .text-header {
       font-size: 3.1vw;
   }
