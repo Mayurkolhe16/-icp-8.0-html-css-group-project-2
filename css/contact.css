@@ -10,8 +10,8 @@
 @font-face {
     font-family: "myFont";
     src: url(./font.ttf);
-  }
-  
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -60,7 +60,8 @@ body {
     transform: scale(0) translateY(50px);
     transition: .5s;
 }
-.list li a:hover span{
+
+.list li a:hover span {
     transform: scale(1) translateY(0);
     opacity: 1;
 }
@@ -80,7 +81,8 @@ body {
     text-decoration: none;
     color: black;
 }
-.white{
+
+.white {
     color: white;
 }
 
@@ -90,27 +92,30 @@ body {
 
 
 
-.navbar-container1{
+.navbar-container1 {
     width: 100%;
     padding: 25px;
     background-color: aqua;
     position: fixed;
     bottom: 0;
     display: none;
-    
+
 }
-.navbar1{
-   
+
+.navbar1 {
+
     display: flex;
     justify-content: space-around;
 
 }
-.navbar-links1{
+
+.navbar-links1 {
     display: flex;
     list-style: none;
-    gap: 70px; 
+    gap: 70px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -122,8 +127,8 @@ a{
 .heading {
     text-align: center;
     color: ;
-   font-weight: 600;
-   font-size: 40px;
+    font-weight: 600;
+    font-size: 40px;
     margin-top: 90px;
 }
 
@@ -155,8 +160,7 @@ a{
     flex-direction: column;
     align-items: start;
     gap: 30px;
-    margin-left: 80px;
-    margin-top: 60px;
+    padding: 5vw 5vw;    
 }
 
 label {
@@ -184,7 +188,7 @@ label {
 
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid ;
+    border: 2px solid;
     color: ;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -207,14 +211,15 @@ label {
     margin-bottom: 40px;
     margin-top: 30px;
     font-size: large;
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 5px;
-    background-color: #9AD0C2; 
-    border: 2px solid #9AD0C2 ;
-   
+    background-color: #9AD0C2;
+    border: 2px solid #9AD0C2;
+
 
 }
-.container-button:hover{
+
+.container-button:hover {
     background-color: #2D9596;
     border: 2px solid #2D9596;
 
@@ -261,12 +266,12 @@ label {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    color:  ;
+    color: ;
 }
 
 .info img {
     border-radius: 50%;
-    border: 1px solid ;
+    border: 1px solid;
     padding: 10px;
     height: 50px;
 }
@@ -284,7 +289,7 @@ label {
     height: 30vh;
     width: 20vw;
     margin-left: 90px;
-    box-shadow:0 0 10px 5px rgb(177, 174, 174);
+    box-shadow: 0 0 10px 5px rgb(177, 174, 174);
 }
 
 .last-heading {
@@ -338,7 +343,7 @@ label {
     height: 30vh;
     width: 20vw;
     margin-left: 9vw;
-    box-shadow:0 0 10px 5px rgb(177, 174, 174);
+    box-shadow: 0 0 10px 5px rgb(177, 174, 174);
 }
 
 .last-para1 {
@@ -359,11 +364,13 @@ label {
     font-size: small;
     color: #3c1c11;
 }
-.footer-section{
+
+.footer-section {
     width: 100%;
     margin-top: 80px;
-    
+
 }
+
 .footer-navbar {
     width: 100%;
     background-color: rgb(45, 149, 150);
@@ -425,16 +432,16 @@ p {
     margin: 1vw;
 }
 
-.list-footer li a{
+.list-footer li a {
     position: relative;
     transition: .5s;
 }
 
-.list-footer li a:hover{
+.list-footer li a:hover {
     color: aqua;
 }
 
-.list-footer li a span{
+.list-footer li a span {
     position: absolute;
     top: 0;
     left: 0;
@@ -442,11 +449,11 @@ p {
     height: 100%;
     z-index: 1;
     border-bottom: 2px solid aqua;
-    transform:  scale(0) translateY(50px);
+    transform: scale(0) translateY(50px);
     transition: .5s;
 }
 
-.list-footer li a:hover span{
+.list-footer li a:hover span {
     transform: scale(1) translateY(0);
     opacity: 1;
 }
@@ -463,56 +470,42 @@ p {
 
 
 /*small Device*/
-@media screen and (max-width:600px){
-
-}
+@media screen and (max-width:600px) {}
 
 /*Normal Device*/
-@media screen and (min-width:601px) and (max-width:768px){
-
-}
+@media screen and (min-width:601px) and (max-width:768px) {}
 
 /*Tablets Device*/
-@media screen and(min-width:769px ) and (max-width:992px){
-
-}
+@media screen and(min-width:769px) and (max-width:992px) {}
 
 
 /*Large Device*/
-@media screen and (min-width:993px ) and (max-width:1250px){
-    .image-container{
+@media screen and (min-width:993px) and (max-width:1250px) {
+    .image-container {
         display: none;
     }
 
-    .txt-info{
+    .txt-info {
         font-size: 1.8vw;
     }
 
-    .container-button{
-            width: 100%;
+    .container-button {
+        width: 100%;
+    }
+
+    /* .container{
+        width: 80%;
+    } */
+
+    .contact-details{
+        width: 100%;
+        /* margin: auto; */
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    input[type="text"],.textarea-box{
+        width: 100%;
+        
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
