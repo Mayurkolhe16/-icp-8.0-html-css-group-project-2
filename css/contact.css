@@ -462,7 +462,26 @@ p {
 
 
 
+/*small Device*/
+@media screen and (max-width:600px){
 
+}
+
+/*Normal Device*/
+@media screen and (min-width:601px) and (max-width:768px){
+
+}
+
+/*Tablets Device*/
+@media screen and(min-width:769px ) and (max-width:992px){
+
+}
+
+
+/*Large Device*/
+@media screen and (min-width:993px ) and (max-width:1250px){
+
+}
 
 
 
