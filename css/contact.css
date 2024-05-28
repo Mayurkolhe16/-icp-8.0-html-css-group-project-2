@@ -201,7 +201,7 @@ label {
 
 .container-button {
     padding: 10px;
-    width: 8vw;
+    width: 100%;
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -480,7 +480,17 @@ p {
 
 /*Large Device*/
 @media screen and (min-width:993px ) and (max-width:1250px){
+    .image-container{
+        display: none;
+    }
 
+    .txt-info{
+        font-size: 1.8vw;
+    }
+
+    .container-button{
+            width: 100%;
+    }
 }
 
 
