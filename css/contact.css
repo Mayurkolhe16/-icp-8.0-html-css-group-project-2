@@ -535,7 +535,7 @@ p {
         
     }
 
-    span,h5{
+    h5, h5 span{
         display: none;
     }
 
@@ -557,13 +557,21 @@ p {
         font-size: 2.4vw;
     }
 
-    .list-footer li{
+    .list li a{
         font-size: 2vw;
+    }
+
+    .list-footer li{
+        font-size: 2.1vw;
     }
 
     .footer-info p,.social-media p, .pages p{
         font-size: 2vw;
     } 
+
+    .copyright p{
+        font-size: 2vw;
+    }
 }
 
 /*Tablets Device*/
@@ -588,9 +596,10 @@ p {
         
     }
 
-    span{
-        font-size: 1.2vw;
+    h5, h5 span{
+        display: none;
     }
+   
 
     .btn{
         margin: 0 9vw;
@@ -608,6 +617,18 @@ p {
     .last-heading{
         margin-left:9vw;
         font-size: 2.4vw;
+    }
+
+    .list li a{
+        font-size: 2vw;
+    }
+
+    .list-footer li{
+        font-size: 2vw;
+    }
+
+    .copyright p{
+        font-size: 2vw;
     }
 
     .footer-info p,.social-media p, .pages p{
