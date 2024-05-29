@@ -508,4 +508,9 @@ p {
         width: 100%;
         
     }
+
+    .btn{
+        margin: 0 5vw;
+        
+    }
 }
