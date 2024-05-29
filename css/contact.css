@@ -511,6 +511,10 @@ p {
 
     .btn{
         margin: 0 5vw;
-        
+
+    }
+
+    span{
+        font-size: 1.3vw;
     }
 }
