@@ -480,7 +480,7 @@ p {
         
     }
 
-    span,h5{
+    span h5{
         display: none;
     }
 
