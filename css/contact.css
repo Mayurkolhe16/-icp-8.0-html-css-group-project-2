@@ -204,8 +204,8 @@ label {
 }
 
 .container-button {
-    padding: 10px;
-    width: 100%;
+    margin-left:80px;
+    width: 70%;
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -312,7 +312,7 @@ label {
 }
 
 .btn {
-    margin-left: 25vw;
+    margin-left: 10vw;
     margin-top: 27px;
     padding: 10px;
     font-size: small;
@@ -351,14 +351,14 @@ label {
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    color: ;
+    /* color: ; */
     text-align: justify;
     margin-left: 90px;
 
 }
 
 .btn1 {
-    margin-left: 19vw;
+    margin-left: 5vw;
     margin-top: 27px;
     padding: 10px;
     font-size: small;
@@ -662,8 +662,12 @@ p {
         display: none;
     }
 
+    .logo {
+        font-size: 2.5vw;
+    }
+
     .txt-info {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
     }
 
     .container-button {
@@ -690,9 +694,9 @@ p {
         margin: 0 5vw;
     }
 
-    span{
+    /* span{
         font-size: 1.3vw;
-    }
+    } */
 
     .btn{
         width: 70%;
